@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+
+.App{
+    font-family: 'Comfortaa', cursive;
+}
+
+.location{
+    color: white;;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.burgers{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    align-items: end;
+}
+
+.burger{
+    width: 3rem;
+    height: .3rem;
+    background: white;
+    border-radius: .2rem;
+}
+
+.burger:nth-child(2){
+    width: 4rem;
+}
+
+.temperature{
+    color: white;
+    font-size: 11rem;
+    width: 100%;
+    margin: 0 3rem;
+    font-weight: bold;
+}
+
+.more-info{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    background: rgba(20,20,20,.5);
+    align-items: center;
+    justify-content: space-around;
+    margin: 15rem auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.more-info>*{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    font-size: 125%;
+}
+
+.search{
+    width: 100%;
+    margin-top: 13rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.search input{
+    margin:0 auto;
+    height: 2rem;
+    width: 15rem;
+    background: rgba(255,255,255, 0.1);
+    border: none;
+    border-radius: 7px;
+    color: #f8f8f8;
+    font-size: 1.25rem;
+    padding: .5rem;
+}
+
+.search input::placeholder{
+    color: rgba(200,200,200,.7);
+}
+
+sup{
+    font-size: 64px;
+}
